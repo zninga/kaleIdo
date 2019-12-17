@@ -3,7 +3,7 @@
 **Usage:**
 
 ```bash
-usage: app.py [-h] [-su SUBJECT [SUBJECT ...]] [-ky KEYWORD [KEYWORD ...]]              [-s SCHOOL [SCHOOL ...]] [-fy FROM_YEAR] [-ty TO_YEAR]optional arguments:
+usage: app.py [-h] [-su SUBJECT [SUBJECT ...]] [-ky KEYWORD [KEYWORD ...]]              [-s SCHOOL [SCHOOL ...]] [-fy FROM_YEAR] [-ty TO_YEAR] -o OUTPUToptional arguments:
   -h, --help            show this help message and exit
   -su SUBJECT [SUBJECT ...], --subject SUBJECT [SUBJECT ...]
                         主题
@@ -15,6 +15,8 @@ usage: app.py [-h] [-su SUBJECT [SUBJECT ...]] [-ky KEYWORD [KEYWORD ...]]      
                         学位授予年度(开始范围)
   -ty TO_YEAR, --to_year TO_YEAR
                         学位授予年度(截止范围)
+  -o OUTPUT, --output OUTPUT
+                        输出文件名
 ```
 
 **e.g.**
