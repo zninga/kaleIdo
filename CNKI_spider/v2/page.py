@@ -2,7 +2,7 @@ import re
 
 from element import BaseSearchElement
 from entity import Paper
-from locators import *
+from locator import *
 
 
 class SearchTextElement(BaseSearchElement):

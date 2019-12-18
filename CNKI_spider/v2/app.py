@@ -6,7 +6,7 @@ from argparse import ArgumentParser
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-from locators import *
+from locator import *
 from page import *
 
 ap = ArgumentParser()
